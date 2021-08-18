@@ -50,8 +50,28 @@
     width: 20%;
     text-align: center;
     text-decoration: none;
+    color: white;
+ }
+
+ a:hover{
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ }
+
+ #goal{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
  }
  
+ #healthy_kids{
+     width: 500px;
+}
+ 
+#end-home{
+    background-image: url('https://www.nih.gov/sites/default/files/styles/sidebar_media_breakpoint-large/public/health-info/wellness-toolkits/illustration-fruits-people-jogging-healthful-images-2.jpg?itok=nyvr6ujq&timestamp=1509044258');
+}
+
  #top-image-div{
      display: flex;
      justify-content: center;
@@ -119,9 +139,6 @@
     margin-top: 20px;
 }
 
-/* EXERCISE.HTML CSS */
-
-
 /*NUTRITION.HTML CSS */ 
 
 #pnutritiontitle{
@@ -148,7 +165,7 @@
 }
 
 
-#Alcohol{
+#NutritionImage{
     display: flex;
     justify-content: center;
 }
@@ -177,4 +194,193 @@ h1{
     padding: 8px;
     border-radius: 10px;
     border: rgba(20, 134, 129, 0.616) groove 5px;
+}
+
+/* EXERCISE.HTML CSS */
+
+#beginner{
+    background-color: #429637;
+     border: black;
+     text-align: center;
+     font-size: 30px;
+     color: white;
+     margin-left: 30%;
+     margin-right: 30%;
+     padding: 8px;
+     border-radius: 5px;
+     border: rgba(20, 134, 129, 0.616) groove 5px;
+}
+
+#knee-push{
+    background-color: #429637;
+    border: black;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    margin-left: 80px;
+    margin-right: 80px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 10px;
+    border: rgba(20, 134, 129, 0.616) groove 5px;
+}
+
+#knee-push:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#jog{
+    background-color: #429637;
+    border: black;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    margin-left: 80px;
+    margin-right: 80px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 10px;
+    border: rgba(20, 134, 129, 0.616) groove 5px;
+}
+
+#jog:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#plank-div{
+    background-color: #429637;
+    border: black;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    margin-left: 80px;
+    margin-right: 80px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 10px;
+    border: rgba(20, 134, 129, 0.616) groove 5px;
+}
+
+#plank-div:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#intermediate{
+    background-color: #ca8637;
+    border: black;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 8px;
+    border-radius: 5px;
+    border: rgba(20, 134, 129, 0.616) groove 5px;
+}
+
+#push-up-div{
+    background-color: #ca8637;
+    border: black;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    margin-left: 80px;
+    margin-right: 80px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 10px;
+    border: rgba(20, 134, 129, 0.616) groove 5px;
+}
+
+#push-up-div:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#squat-div{
+    background-color: #ca8637;
+    border: black;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    margin-left: 80px;
+    margin-right: 80px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 10px;
+    border: rgba(20, 134, 129, 0.616) groove 5px;
+}
+
+#squat-div:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#crunches-div{
+    background-color: #ca8637;
+    border: black;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    margin-left: 80px;
+    margin-right: 80px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 10px;
+    border: rgba(20, 134, 129, 0.616) groove 5px;
+}
+
+#crunches-div:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#advanced{
+    background-color: #aa2727;
+    border: black;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 8px;
+    border-radius: 5px;
+    border: rgba(20, 134, 129, 0.616) groove 5px;
+}
+
+#decline-div{
+    background-color: #aa2727;
+    border: black;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    margin-left: 80px;
+    margin-right: 80px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 10px;
+    border: rgba(20, 134, 129, 0.616) groove 5px;
+}
+
+#decline-div:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#weight-div{
+    background-color: #aa2727;
+    border: black;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    margin-left: 80px;
+    margin-right: 80px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 10px;
+    border: rgba(20, 134, 129, 0.616) groove 5px;
+}
+
+#weight-div:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#all-exercises{
+    background-color:rgba(11, 61, 59);
 }
